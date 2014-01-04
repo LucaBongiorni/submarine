@@ -5,9 +5,8 @@ small, simple, and fast subdomain enumeration
 
 Example usage:
 <pre><code>
-dustyfresh@spacecaddy:~/ruby$ ./submarine google.com
+dustyfresh@spacecaddy:~$ ./submarine google.com
 One moment while we enumerate A records for google.com...
-
 
 academico.google.com : 173.194.115.80
 accounts.google.com : 74.125.198.84
