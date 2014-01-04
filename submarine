@@ -3,6 +3,7 @@
 # Submarine ver 1.0
 # small, simple, and fast subdomain enumeration
 # Author: DustyFresh 2014
+# Educational, or professional use only.
 #
 require 'resolv' # this is a built in gem :)
 target = ARGV.first
