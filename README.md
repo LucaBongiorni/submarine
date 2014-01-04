@@ -1,12 +1,12 @@
 submarine
 =========
 
-small, simple, and fast subdomain enumeration
+Small, simple, and fast subdomain enumeration in Ruby.
 
 Example usage:
 <pre><code>
 dustyfresh@spacecaddy:~$ ./submarine google.com
-One moment while we enumerate A records for google.com...
+One moment while we enumerate subdomains for google.com...
 
 academico.google.com : 173.194.115.80
 accounts.google.com : 74.125.198.84
@@ -20,3 +20,8 @@ blog.google.com : 74.125.198.191
 ...
 ...
 </code></pre>
+
+NOTICE:
+Keep in mind, the shorter the list the faster your scan will be. The list I have provided
+was forked from two existing lists, so it's rather large. It does however cover a very
+vast range of possible subdomains.
