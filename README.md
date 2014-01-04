@@ -11,8 +11,11 @@ remote: Counting objects: 23, done.
 remote: Compressing objects: 100% (20/20), done.
 remote: Total 23 (delta 6), reused 15 (delta 3)
 Unpacking objects: 100% (23/23), done.
+</code></pre>
 
-dustyfresh@spacecaddy:~$ ./submarine/submarine.rb google.com
+<pre><code>
+dustyfresh@spacecaddy:~$ cd submarine/
+dustyfresh@spacecaddy:~/submarine$ ./submarine.rb google.com
 One moment while we enumerate subdomains for google.com...
 
 academico.google.com : 173.194.115.80
