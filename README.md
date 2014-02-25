@@ -34,4 +34,5 @@ blog.google.com : 74.125.198.191
 NOTICE:
 Keep in mind, the shorter the list the faster your scan will be. The list I have provided
 was forked from two existing lists, so it's rather large. It does however cover a very
-vast range of possible subdomains.
+vast range of possible subdomains. By default it's using a smaller list for speed, but feel
+free to switch it out to the larger one for a more in-depth scan.

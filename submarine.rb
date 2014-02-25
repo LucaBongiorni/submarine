@@ -11,12 +11,13 @@ if target == nil
 	puts "Please supply a domain name to scan."
 	exit
 end
-puts "One moment while we enumerate subdomains for #{target}...\n\n"
+puts "One moment while we enumerate subdomains for #{target}...\n\n[#{Time.now}]: START"
 File.open("hosts.txt","r").each_line do |subdomain|
-	Resolv.new(resolvers=['8.8.8.8','8.8.4.4'])
+	Resolv.new(resolvers=['208.67.222.222','208.67.220.220'])
 	subdomain = subdomain.tr("\n","")
 	ip = Resolv.getaddress "#{subdomain}.#{target}" rescue ""
 	if ip != nil
 		puts "#{subdomain}.#{target} : #{ip}"
 	end
 end
+puts "Scan complete at: [#{Time.now}]: STOP"
