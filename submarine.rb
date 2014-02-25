@@ -4,6 +4,7 @@
 # small, simple, and fast subdomain enumeration
 # Author: DustyFresh 2014
 # Educational, or professional use only.
+# atxsec.com
 #
 require 'resolv' # this is a built in gem :)
 target = ARGV.first
